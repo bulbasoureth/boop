@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Study-Break.iml" filepath="$PROJECT_DIR$/Study-Break.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyBreak.iml" filepath="$PROJECT_DIR$/StudyBreak.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
