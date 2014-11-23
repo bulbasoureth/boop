@@ -4,6 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.content.Context;
+import android.app.Activity;
+import android.graphics.Typeface;
+import android.os.Bundle;
+import android.widget.TextView;
+
+import static android.graphics.Typeface.*;
 
 
 public class MainActivity extends Activity {
@@ -12,6 +19,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
 
@@ -36,4 +44,17 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public class handSean extends TextView{
+        private Context c;
+        public handSean(Context c) {
+            super(c);
+            this.c = c;
+            Typeface tfs = createFromAsset(c.getAssets(), "font/Hand_Of_Sean_Demo.fft");
+            setTypeface(tfs);
+        }
+        }
+
+
 }
+

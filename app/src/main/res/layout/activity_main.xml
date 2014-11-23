@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.StudyBreak.MainActivity" >
 
-    <TextView
+    <com.studybreak.handSean
         android:id="@+id/question_time"
         style="android:textViewStyle"
         android:layout_width="wrap_content"
@@ -24,7 +24,9 @@
 
         android:focusable="true"
         android:editable="false"
-        android:enabled="true" />
+        android:enabled="true"
+        android:textStyle="bold"
+        android:typeface="hand_of_sean"/>
 
     <SeekBar
         android:id="@+id/slide_time"
@@ -35,7 +37,7 @@
         android:layout_below="@+id/question_time"
         android:layout_marginTop="36dp"/>
 
-    <TextView
+    <com.studybreak.handSean
         android:id="@+id/display_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,7 +47,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FFFFFF" />
 
-    <TextView
+    <com.studybreak.handSean
         android:id="@+id/minute_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +56,8 @@
         android:layout_marginTop="20dp"
         android:text="@string/minutes_label"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        android:typeface="hand_of_sean" />
 
     <Button
         android:layout_width="wrap_content"
