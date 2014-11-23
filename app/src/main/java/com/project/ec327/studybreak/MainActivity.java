@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
             Typeface tfs = createFromAsset(c.getAssets(), "font/Hand_Of_Sean_Demo.fft");
             setTypeface(tfs);
         }
-        }
+    }
 
 
 }
