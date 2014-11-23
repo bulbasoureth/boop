@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="slide_time" type="id" />
+    <item name = "display_time" type="id"/>
+    <item name = "minute_label" type = "id"/>
+    <item name = "question_time" type = "id"/>
+</resources>
