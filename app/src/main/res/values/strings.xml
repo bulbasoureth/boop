@@ -4,9 +4,10 @@
     <string name="app_name">Study Break</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="question_time">how long do you want to work?</string>
+    <string name="question_time">how long do you want to work:</string>
     <string name="minutes_label">minutes</string>
     <string name="button_go">GO</string>
+    <string name="Go_button">GO</string>
 
 
 </resources>

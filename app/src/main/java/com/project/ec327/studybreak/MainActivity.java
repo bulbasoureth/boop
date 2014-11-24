@@ -1,24 +1,32 @@
 package com.project.ec327.studybreak;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.content.Context;
-import android.app.Activity;
-import android.graphics.Typeface;
-import android.os.Bundle;
 import android.widget.TextView;
 
-import static android.graphics.Typeface.*;
+import com.example.studyapp.R;
 
 
 public class MainActivity extends Activity {
-
+TextView t;
+TextView minutes;
+    TextView num;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        t = (TextView) findViewById(R.id.question_time);
+        minutes = (TextView) findViewById(R.id.minute_label);
+        num = (TextView) findViewById(R.id.display_time);
+
+
+        Typeface myCustom = Typeface.createFromAsset(getAssets(), "fonts/Hand_Of_Sean_Demo.ttf");
+        t.setTypeface(myCustom);
+        minutes.setTypeface(myCustom);
+        num.setTypeface(myCustom);
 
     }
 
@@ -44,7 +52,7 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-
+/**
     public class handSean extends TextView{
         private Context c;
         public handSean(Context c) {
@@ -55,6 +63,6 @@ public class MainActivity extends Activity {
         }
     }
 
-
+**/
 }
 
