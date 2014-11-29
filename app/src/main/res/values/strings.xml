@@ -8,6 +8,6 @@
     <string name="minutes_label">minutes</string>
     <string name="button_go">GO</string>
     <string name="Go_button">GO</string>
-
+    <string name="Main_Activity">Activity</string>
 
 </resources>

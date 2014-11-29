@@ -65,12 +65,16 @@
         android:textStyle="bold"
         android:textSize="30sp" />
 
-    <view
+    <SeekBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        class="com.project.ec327.studybreak.circularseekbar.CircularSeekBar"
-        android:id="@+id/Circular"
+        android:id="@+id/seekBar"
+        android:layout_alignTop="@+id/display_time"
+        android:layout_alignRight="@+id/question_time"
         android:layout_above="@+id/minute_label"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:max="300"
+
+        android:visibility="visible" />
 
 </RelativeLayout>
